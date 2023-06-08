@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta herf="/admin.html" >
+ <link rel="stylesheet" href="../css/admin.css">
+  <title>Admin</title>
+</head>
+<body>
+  <div class="admin"> 
+    <div class="admin_left">
+      <h1 class="admin_left-heading">  Admin panel </h1>
+      <div class="speaker">
+        <h2>Add spekers</h2>
+        <form class="form">
+          <div>
+            <input type="text" name="name" id="name" placeholder="Speaker name">
+            <input type="text" name="field" id="fieled" placeholder="Speaker profession">
+            <input type="file" name="img" id="img" placeholder="Speaker photo">
+          </div>
+          <button type="submit">Save</button>
+        </form>
+      </div>
+  
+      
+      <div class="schedul">
+        <h2>Schedul</h2>
+        <form id="schedul">
+          <input type="text" name="" id="point" placeholder="Add Point day">
+          <div class="date">
+            <span>
+                 <input type="text" name="" id="from" placeholder="from" class="dt">
+                <input type="text" name="" id="to" placeholder="to" class="dt">
+            </span>
+              <input type="text" name="" id="event" placeholder="Enter event" class="ev">
+              <button type="submit" id="addDate">Add</button>
+         <!--   <div class="list">
+              <h4><p>22:00</p> - <p>23:00</p></h4> <h3>Slepping</h3>
+            </div> -->
+          </div>
+          <button type="submit">Save</button>
+        </form>
+      </div>
+  
+      <div class="spo">
+        <h2>Sponsors</h2>
+        <form id="sponsor1">
+           <h2>PLATINUM SPONSORS</h2>
+           <input type="file" name="" id="platinum">
+           <button type="submit">Save sponsor</button>
+        </form>
+        <form id="sponsor2">
+          <h2>GOLD SPONSORS</h2>
+          <input type="file" name="" id="gold">
+          <button type="submit">Save sponsor</button>
+  
+        </form>
+        <form id="sponsor3">
+          <h2>SILVER SPONSORS</h2>
+          <input type="file" name="" id="silver">
+          <button type="submit">Save sponsor</button>
+        </form>
+      </div>
+    </div>
+    <div class="admin_right">
+
+    </div>
+  </div>
+</body>
+</html>
